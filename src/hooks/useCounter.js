@@ -10,6 +10,9 @@ export const useCounter = (initialValue = 10) => {
 	}
 
 	const decrementCounter = (value) => {
+
+		// if ( counter === 0 ) return;
+		
 		setcounter(counter-value)
 	}
 
